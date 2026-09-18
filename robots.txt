@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://otavioeleuterio2020-ctrl.github.io/barbeariadsantos/sitemap.xml

@@ -1,6 +1,6 @@
 # Barbearia D' Santos — Unidade Av. Chico Júlio
 
-Site institucional de página única (`index.html`), autocontido (sem dependências externas além de fontes do Google), responsivo e pronto para publicação via GitHub Pages.
+Site institucional de página única (`index.html`), autocontido (sem dependências externas além das fontes do Google), responsivo e pronto para publicação via GitHub Pages.
 
 ## Como publicar (GitHub Pages)
 
@@ -21,11 +21,16 @@ Se você quiser apontar um domínio próprio (ex: barbeariadsantos.com.br):
 ## Estrutura
 
 - `index.html` — site completo (HTML + CSS + JS embutidos)
+- `assets/` — fotografias reais da unidade (extraídas dos vídeos enviados)
 - `robots.txt` / `sitemap.xml` — indexação em buscadores
 - Dados estruturados (JSON-LD `HairSalon`) embutidos no `<head>` para melhor exibição em buscas locais
 
 ## Próximos passos sugeridos
 
-- Substituir os elementos ilustrativos em SVG por fotografias profissionais da unidade (hero e seção "Experiência D' Santos")
-- Preencher os links de Instagram/Facebook no rodapé (atualmente como placeholder `#`)
-- Adicionar o link oficial de agendamento online quando disponível (botão já preparado em `#agendarOnlineBtn`)
+- Adicionar fotografias profissionais adicionais (cortes finalizados, fachada, equipe) conforme disponíveis
+- Preencher o link do Instagram no rodapé (atualmente como placeholder `#`)
+- Adicionar o link oficial de agendamento online quando disponível (botão "AGENDAR ONLINE" já preparado, atualmente aponta para a seção de contato)
+
+## Segurança
+
+Importante: o token de acesso do GitHub usado para publicar este commit foi compartilhado em texto puro em uma conversa de chat. Por padrão de segurança, esse token deve ser considerado comprometido — revogue-o em **Settings → Developer settings → Personal access tokens** e gere um novo assim que possível, mesmo que já tenha sido usado apenas para esta tarefa autorizada.
